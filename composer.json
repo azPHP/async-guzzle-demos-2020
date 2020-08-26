@@ -1,0 +1,23 @@
+{
+    "name": "azphp/async-guzzle-2020",
+    "description": "Async Guzzle demo for azPHP meetup",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Lindblom",
+            "email": "jeremeamia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AZPHP\\AsyncGuzzle\\": "src/"
+        }
+    }
+}
